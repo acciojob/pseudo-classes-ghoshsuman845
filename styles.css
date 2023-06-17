@@ -1,21 +1,54 @@
-/*  your css code here. If applicable */
-p:first-child {
-background-color:black;
-color:white;
+ :root{
 
-p:last-child {
-background-color:red;
+  background-color: rgb(135, 206, 235);
+
+  font-family: sans-serif;
 
 }
-.item:first-child{
-background-color:white;
+p:first-child{
+
+  color: white;
+  background-color: black;
+
 }
-.item:last-child-child{
-background-color:white;
+p:last-child{
+
+  color: red;
+
 }
-.item:last-child(even){
-background-color:stalegray;
+/* p:nth-child(1){
+
+  background-color: black;
+
+} */
+li{
+
+  background: slategray;
+
+  width: 50%;
+
+  padding: 10px;
+
+  align-items: center;
+
 }
-.item:last-child(odd){
-background-color:pink;
+li:nth-of-type(2n + 1){
+
+  background: white;
+
 }
+li:first-of-type{
+
+  font-size: 22px;
+
+}
+li:last-of-type{
+
+  font-size: 22px;
+
+}
+li:nth-last-of-type(3){
+
+  background-color: pink;
+
+} 
